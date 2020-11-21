@@ -11,7 +11,7 @@ div.splash {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
+  padding: 50px;
 }
 
 a {
