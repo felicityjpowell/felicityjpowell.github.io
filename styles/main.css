@@ -11,6 +11,7 @@ div.splash {
   top: 400px;
   flex-direction: column;
   width: 300px;
+  margin-top: 50%;
 }
 
 a {
