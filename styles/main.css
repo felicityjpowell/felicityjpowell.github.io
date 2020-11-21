@@ -9,7 +9,6 @@ div.splash {
   background-color: #EDF2F4;
   margin: 0 auto;
   top: 400px;
-  justify-content: center;
   flex-direction: column;
   width: 300px;
 }
