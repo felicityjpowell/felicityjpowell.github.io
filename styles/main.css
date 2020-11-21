@@ -14,7 +14,18 @@ div.splash {
   margin-top: 400px;
 }
 
-div.splashbtn {
+.button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
   background-color: #faff00;
   color: #353238;
   text-decoration: none;
@@ -35,7 +46,7 @@ a:visited {
   text-decoration: none;
 }
 
-nav {
+.nav {
   background-color: #353238;
   overflow: hidden;
   position: fixed;
@@ -43,7 +54,7 @@ nav {
   width: 100%;
 }
 
-nav a {
+.nav a {
   float: left;
   display: block;
   color: #faff00;
@@ -53,12 +64,12 @@ nav a {
   font-size: 17px;
 }
 
-nav a:hover {
+.nav a:hover {
   background-color: #faff00;
   color: #353238;
 }
 
-nav a.active {
+.nav a.active {
   background-color: #4CAF50;
   color: #353238;
 }
