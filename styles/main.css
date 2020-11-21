@@ -77,9 +77,11 @@ nav a.active {
   color: #353238;
 }
 
-article {
+div.blogpost {
   display: flex;
   width: 400px;
   align-items: right;
   flex-direction: column;
+  background-color: #353238;
+  padding: 30px;
 }
