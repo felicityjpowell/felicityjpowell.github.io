@@ -2,6 +2,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   color: #faff00 !important;
   background-image: url(../top-view.jpg);
+  background-size: cover;
 }
 
 div.splash {
