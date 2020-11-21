@@ -3,7 +3,7 @@ body {
   color: #353238 !important;
 }
 
-splash {
+.splash {
   display: flex;
   align-items: center;
 }
