@@ -6,13 +6,10 @@ body {
 div.splash {
   display: flex;
   align-items: center;
-  text-align: center;
   background-color: #EDF2F4;
-  width: 600px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   padding: 30px;
 }
