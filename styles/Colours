@@ -1,0 +1,11 @@
+/* CSV */
+8d99ae,edf2f4,353238,faff00,0fff95
+
+/* Array */
+["8d99ae","edf2f4","353238","faff00","0fff95"]
+
+/* Object */
+{"Manatee":"8d99ae","Alice Blue":"edf2f4","Jet":"353238","Lemon Glacier":"faff00","Medium Spring Green":"0fff95"}
+
+/* Extended Array */
+[{"name":"Manatee","hex":"8d99ae","rgb":[141,153,174],"cmyk":[19,12,0,32],"hsb":[218,19,68],"hsl":[218,17,62],"lab":[63,0,-12]},{"name":"Alice Blue","hex":"edf2f4","rgb":[237,242,244],"cmyk":[3,1,0,4],"hsb":[197,3,96],"hsl":[197,24,94],"lab":[95,-1,-2]},{"name":"Jet","hex":"353238","rgb":[53,50,56],"cmyk":[5,11,0,78],"hsb":[270,11,22],"hsl":[270,6,21],"lab":[21,3,-3]},{"name":"Lemon Glacier","hex":"faff00","rgb":[250,255,0],"cmyk":[2,0,100,0],"hsb":[61,100,100],"hsl":[61,100,50],"lab":[97,-24,94]},{"name":"Medium Spring Green","hex":"0fff95","rgb":[15,255,149],"cmyk":[94,0,42,0],"hsb":[154,94,100],"hsl":[154,100,53],"lab":[89,-73,37]}]

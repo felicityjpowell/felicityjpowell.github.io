@@ -17,20 +17,30 @@ a:visited {
   text-decoration: none;
 }
 
-main
+nav {
+  background-color: #EDF2F4;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
-h1
+nav a {
+  float: left;
+  display: block;
+  color: #EDF2F4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-h2
+nav a:hover {
+  background-color: #EDF2F4;
+  color: black;
+}
 
-h3
-
-p
-
-.nav
-
-.topnav
-
-.splash
-
-.splashbtn
+nav a.active {
+  background-color: #4CAF50;
+  color: #EDF2F4;
+}
