@@ -1,7 +1,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   color: #faff00 !important;
-  background: "/assets/top view.jpg";
+  background-image: "/assets/top view.jpg";
 }
 
 div.splash {
