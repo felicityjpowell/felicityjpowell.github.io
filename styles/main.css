@@ -81,6 +81,8 @@ div.blogpost {
   display: flex;
   width: 600px;
   margin-left: 400px;
+  align-items: right;
+  margin: 0 auto;
   flex-direction: column;
   background-color: #353238;
   padding: 30px;
