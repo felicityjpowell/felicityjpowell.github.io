@@ -1,12 +1,12 @@
 body {
   font-family: 'Work Sans', sans-serif;
-  color: #353238 !important;
+  color: #faff00 !important;
 }
 
 div.splash {
   display: flex;
   align-items: center;
-  background-color: #EDF2F4;
+  background-color: #353238;
   margin: 0 auto;
   flex-direction: column;
   width: 300px;
@@ -16,19 +16,19 @@ div.splash {
 a {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
-  color: #353238;
+  color: #faff00;
   text-decoration: none;
 }
 
 a:visited {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
-  color: #353238;
+  color: #faff00;
   text-decoration: none;
 }
 
 nav {
-  background-color: #EDF2F4;
+  background-color: #353238;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -38,7 +38,7 @@ nav {
 nav a {
   float: left;
   display: block;
-  color: #353238;
+  color: #faff00;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
