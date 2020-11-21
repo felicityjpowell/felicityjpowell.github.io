@@ -76,3 +76,10 @@ nav a.active {
   background-color: #4CAF50;
   color: #353238;
 }
+
+article {
+  display: flex;
+  width: 400px;
+  align-items: right;
+  flex-direction: column;
+}
