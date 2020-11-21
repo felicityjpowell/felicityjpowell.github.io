@@ -5,6 +5,10 @@ body {
   background-size: cover;
 }
 
+div.navcontain {
+  background-color: #353238;
+}
+
 div.splash {
   display: flex;
   align-items: center;
