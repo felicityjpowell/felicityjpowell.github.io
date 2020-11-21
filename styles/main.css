@@ -79,8 +79,8 @@ nav a.active {
 
 div.blogpost {
   display: flex;
-  width: 400px;
-  align-items: right;
+  width: 600px;
+  margin-left: 400px;
   flex-direction: column;
   background-color: #353238;
   padding: 30px;
