@@ -23,20 +23,35 @@
     <article>
     <div class="blogpost">
       <section>
-        <h1>The Story of Te Houtaewa (PAGE heading)</h1>
-        <h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em> (Optional SUB title) </h2>
-        <h3>10 November 2010</h3>
+        <h1>Sprint 2: Technical Blog</h1>
+        <h2>Creating a Nav Bar with HTML/CSS (using <code>inline-block</code>)</h2>
+        <h3>22 November 2020</h3>
       </section>
 
       <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
+      So! You want to make a nav bar that doesn't look like a naff bar. Fair. Let's start with creating our HTML.
       </p>
+      <img src="../assets/S2Tech-1.png" width=200>
       <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
+      Unless you're a fan of times new roman in blue, let's do a little CSS-ery (pronounced "sorcery") to make it look snazzier, IMHO.
       </p>
+      <img src="../assets/S2Tech-2.png" width=200>
       <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
+      Ok, we kept the blue, but here's some pink to make it not so... Web 1.0. And some padding, so we can find our links! But what if I want each link to have more space between but not above or below? Do I just try <code>width: 40px;</code> and hope for the best?
       </p>
+      <img src="../assets/S2Tech-3.png" width=200>
+      <p>
+      Yeah, nah, that didn't do it.
+      </p>
+      <img src="../assets/S2Tech-4.png" width=200>
+      <p>
+      Hmm... adding <code>display: inline;</code> didn't seem to do anything to the width, either. This is because "inline" simply takes the object at face value and parses it horizontally to others in the section. But what happens if I use <code>display: inline-block;</code>?
+      </p>
+      <img src="../assets/S2Tech-5.png" width=200>
+      <p>
+      Well, that's definitely done SOMETHING. It looks suspiciously like I've made my links into 'blocks', which have a set width of 40px. And that's kind of the difference between the two. Inline simply places the object, but inline-block can manipulate the object, which is kinda helpful when you're a bit of a control freak and, idk, want to make a button a certain size.
+      </p>
+      
     </div>
     </article>
     <!-- this is a comment. -->
