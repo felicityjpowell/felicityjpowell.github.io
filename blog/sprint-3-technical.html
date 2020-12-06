@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FJP</title>
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+
+    <!-- Here are my fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class = "navcontain">
+      <nav>
+        <a href="../index.html">Felicity J Powell</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="/blog/blog.html">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+
+    <article>
+    <div class="blogpost">
+      <section>
+        <h1>Sprint 3: Cultural Blog</h1>
+        <h2>Emotional Intelligence</h2>
+        <h3>22 November 2020</h3>
+      </section>
+
+<h2>As if talking to a Non-technical friend, discuss:</h2>
+
+<h4>An analogy to describe the differences between HTML and CSS</h4>
+<p>HTML is the brute structure of the thing. CSS styles it appropriately. HTML is the text, CSS is the font. HTML is the house, CSS is the paint. HTML likes potato, CSS likes potato, let's call the whole thing off.
+</p>
+<h4>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'. (But not those ones).
+</h4>
+<p>Control flow and loops are the decision gates that make things happen in the way you want them to, when a program has multiple options.
+<br>We go through hundreds of thousands of tiny decision making processes every day, without thinking about them, which is intricately complex when extrapolating to a machine.
+<br>Let's take washing your hands (COVID themed!). We're going to make it easy and assume we're in the right place (in front of a sink), and that the sink is in functioning order (no water shortage).
+<br>You go to turn the faucet on... you've actually already gone through some control flow. In some part of your brain, it went, "Is the faucet already on?"
+<br>If the faucet is NOT on, you turn it on. If it IS on, you leave it on.
+<br>That's an if statement.
+<br>Now you put some soap on your hands. Is soap on your hands? Yes, or no? Maybe it's one of those sticky dispensers you have to push a couple of times.
+<br>So you check your hands. Is soap on your hands? No. While soap is NOT on your hands, keep pushing dispenser. The moment "soap on hands" is TRUE (the same as saying yes to the 'if' statement), the 'loop' or repetitive function (pushing the dispenser) is broken.
+<br>The faucet should be on (throw in another if statement here if not). So you start the process of washing your hands.
+<br>
+<br>We all know we wash for 20 seconds to keep Dr Bloomfield happy, so let's put in a loop here. For time less than 20 seconds, we keep washing. That's another loop.
+<br>
+<br>Just as with day-to-day flow and loops that we aren't even cogniscient of, programs need these to perform complex operations (beyond calculations). So, there you have it.
+
+</p>
+<h4>Describe what the DOM is and an example of how you might interact with it.</h4>
+<p>Well, first, because *acronyms* - DOM = "Document Object Model".
+<br>The DOM takes all of the elements in a web document and arranges them into a 'tree'-like structure (figurative), where each 'node' of the structure is one of those objects according to its hierarchy. The hierarchy of objects is a universally agreed system, and this structure was devised to increase compatibility and accessibility across browsers.
+<br>You can observe the DOM by using developer tools or 'inspecting' the source of a page through your browser. Interacting with the DOM locally is pretty easy - through the developer tools you can get up to all kinds of mischief such as altering objects in the browser and watching what happens. However, inorder to interact with it permanently - or allow your users to do so - you can use JavaScript. JavaScript allows for user interactions to add, change, or remove HTML and CSS elements, as well as creating or reacting to new events within the JavaScript part of the DOM as well.
+</p>
+<h4>Explain the difference between accessing data from arrays and objects.</h4>
+<p>Both arrays and objects can be used to store infinitely complex, mutable bits of data. They differ in structure, which can sometimes be easier to explain through the appropriate application of each type.
+<br>Let's start with objects. Say I've created a library and each object is a book in my library. So, for each object - each book - I'll have a few different bits of data. Maybe the title, author, ISBN, genre, and so on. These are known as properties, and they consist of a key and a value - so one key/value pair would be Title: The Alchemist. 
+<br>In an object, I can add, change, or remove properties using either dot or bracket notation. I could even add an array as a property - say a book fits into multiple genres, and I want to list them: "Genre: ['self-help', 'fables', 'modern classics']".
+<br>Arrays are pretty useful when you want to create an ordered list and store it in a single variable. The easiest example for this would be a shopping list. You can add, remove, and change objects in an array by locating the index of the list item, or by using the pop(), shift(), unshift(), and push() commands.
+</p>
+<h4>Explain what functions are and why they are useful.</h4>
+<p>Functions are wee packets of joy that combine a bunch of actions or instuctions together and run them when called. It's super helpful to write functions for complex tasks that can then easily be iterated or tucked neatly into the control flow of your code to both dry it out (prevent unnecessary repetition) and tidy it up. Functions, as their name suggests, are indeed fun and sexy and you should probably use them more often.</p>
+
+</div>
+</article>
+<!-- this is a comment. -->
+
+</body>
+</html>
